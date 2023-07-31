@@ -1,0 +1,4 @@
+#Tue Jul 25 02:49:46 PKT 2023
+base.0=/home/erebus/Documents/fyp/flutter/tests/liboqs_native/liboqs_flutter/example/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
