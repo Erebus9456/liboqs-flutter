@@ -6,7 +6,7 @@ Safe, Easier encryption for android using flutter.
 
 ### This is a port of lib-oqs from NIST: https://github.com/open-quantum-safe/liboqs
 Using this library you can access all algorithms supported by NIST Open Quantum Safe project.
-Namely:
+
 ## Key encapsulation mechanisms:
   BIKE: BIKE-L1, BIKE-L3, BIKE-L5
   Classic McEliece: Classic-McEliece-348864†, Classic-McEliece-348864f†, Classic-McEliece-460896†, Classic-McEliece-460896f†, Classic-McEliece-6688128†, Classic-                        McEliece-6688128f†, Classic-McEliece-6960119†, Classic-McEliece-6960119f†, Classic-McEliece-8192128†, Classic-McEliece-8192128f†
