@@ -1,6 +1,6 @@
 # liboqs_flutter
 
-Safe, Easier encryption.
+Safe, Easier encryption for android using flutter.
 
 ## Getting Started
 
