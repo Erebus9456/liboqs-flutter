@@ -4,7 +4,7 @@ Safe, Easier encryption for android using flutter.
 
 ## Getting Started
 
-This is a port of lib-oqs from NIST: 
+### This is a port of lib-oqs from NIST: https://github.com/open-quantum-safe/liboqs
 Using this library you can access all algorithms supported by NIST Open Quantum Safe project.
 Namely:
 ## Key encapsulation mechanisms:
