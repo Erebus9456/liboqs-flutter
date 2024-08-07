@@ -26,10 +26,12 @@ Generate New KeyPair:
     // Store the private key in shared preferences
     await prefs.setString('userPrivateKey', privateKey);
     await prefs.setString('userPublicKey', publicKey);
-
     // Return the public key
     return publicKey;
   }
 
+
+
+
+
 '''
-samples, guidance on mobile development, and a full API reference.
