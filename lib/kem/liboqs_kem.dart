@@ -14,20 +14,6 @@ part 'liboqs_kem_native_typedef.dart';
 /// cryptographic algorithms. These algorithms represent a collection of
 /// solutions that can be used by non-quantum computers to protect against
 /// cyberattacks from a Quantum Computer via Grover or Shor's algorithms.
-///
-/// This library is intended for experimental use only and should not be
-/// considered safe for production purposes. If you are looking for a
-/// quantum-safe solution for your mobile apps, keep in mind:
-///  - there is no guarantee these algorithms are safe against quantum
-///  attacks.
-///  - the NIST has not confirmed which algorithms are the 'best' for quantum safety.
-///  - Even if the algorithms are quantum safe, there is no guarantee they are
-///  safe against traditional attacks.
-///  - even if the algorithms are completely safe, this implementation merely exposes
-///  the library for cryptographic purposes. Attacking an implementation system is
-///  likely the more common source of a cyberattack.
-///
-///
 class LiboqsKem {
   static final _liboqs = LiboqsFlutter.liboqs;
 
