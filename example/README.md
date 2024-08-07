@@ -7,11 +7,6 @@ Demonstrates how to use the liboqs_flutter plugin.
 This is an example for generating KeyPairs
 
 Generate New KeyPair:
-
-'''
-    Future<String> saveUserKeyPair() async {
-        // Obtain the shared preferences instance
-        SharedPreferences prefs = await SharedPreferences.getInstance();
     
         // Initialize LiboqsKem for Kyber1024
         LiboqsKem.makeNewKem('Kyber1024');
@@ -28,10 +23,4 @@ Generate New KeyPair:
         await prefs.setString('userPublicKey', publicKey);
         // Return the public key
         return publicKey;
-     }
 
-
-
-
-
-'''
