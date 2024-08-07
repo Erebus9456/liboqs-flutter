@@ -4,13 +4,32 @@ Demonstrates how to use the liboqs_flutter plugin.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This is an example for generating KeyPairs
 
-A few resources to get you started if this is your first Flutter project:
+Generate New KeyPair:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+'''
+  Future<String> saveUserKeyPair() async {
+    // Obtain the shared preferences instance
+    SharedPreferences prefs = await SharedPreferences.getInstance();
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
+    // Initialize LiboqsKem for Kyber1024
+    LiboqsKem.makeNewKem('Kyber1024');
+
+    // Generate a new key pair
+    var newKeyPair = keyGen();
+
+    // Extract public and private keys
+    String publicKey = newKeyPair['PubKey']!;
+    String privateKey = newKeyPair['PrivKey']!;
+
+    // Store the private key in shared preferences
+    await prefs.setString('userPrivateKey', privateKey);
+    await prefs.setString('userPublicKey', publicKey);
+
+    // Return the public key
+    return publicKey;
+  }
+
+'''
 samples, guidance on mobile development, and a full API reference.
