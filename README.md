@@ -12,7 +12,7 @@ Using this library you can access all algorithms supported by NIST Open Quantum 
   Classic McEliece: Classic-McEliece-348864†, Classic-McEliece-348864f†, Classic-McEliece-460896†, Classic-McEliece-460896f†, Classic-McEliece-6688128†, Classic-                        McEliece-6688128f†, Classic-McEliece-6960119†, Classic-McEliece-6960119f†, Classic-McEliece-8192128†, Classic-McEliece-8192128f†
   FrodoKEM: FrodoKEM-640-AES, FrodoKEM-640-SHAKE, FrodoKEM-976-AES, FrodoKEM-976-SHAKE, FrodoKEM-1344-AES, FrodoKEM-1344-SHAKE
   HQC: HQC-128, HQC-192, HQC-256†
-  Kyber: Kyber512, Kyber768, Kyber1024
+  Kyber: Crystals-Kyber512, Crystals-Kyber768, Crystals-Kyber1024
   NTRU-Prime: sntrup761
 ## Signature schemes
   CRYSTALS-Dilithium: Dilithium2, Dilithium3, Dilithium5
